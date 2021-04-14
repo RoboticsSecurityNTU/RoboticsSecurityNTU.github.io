@@ -3,7 +3,7 @@ title: "News"
 layout: textlay
 excerpt: "CSL @ Nanyang Technological University."
 sitemap: false
-permalink: /news.html
+permalink: /allnews.html
 ---
 
 # News
