@@ -1,20 +1,45 @@
-remote_theme: peterdesmet/petridish@1.1
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-title: NTU Robotics Security Research                        # Title in top navigation bar (navbar) and <head>
-description: Jekyll theme for research project websites # Site description in <head>
-author: Deng Gelei                   # Used for copyright statement in footer
+# Site settings
+title: Robotics Security CSL@NTU
+email: gelei.deng@ntu.edu.sg
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""
+url: ""
 
-# SOCIAL PROFILES
-email: gelei.deng@ntu.edu.sg           # Social icon in footer
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
 
-# THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
-tweets_on_home: true                    # Show Twitter feed of twitter_username on homepage
-archive_permalink: /blog/               # Permalink of page using archive.html layout, required when using post categories
-logo: /assets/img/petri-dish_1f9eb.png  # Logo in navbar, will be displayed with 30px height
-colors:
-  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
-  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
-  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
-rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
