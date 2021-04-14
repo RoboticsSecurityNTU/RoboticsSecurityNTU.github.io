@@ -1,7 +1,7 @@
 ---
 title: "Robotics Security Research Team CSL@NTU - Home"
 layout: homelay
-excerpt: "Nanyang Technological University."
+excerpt: "CSL @ Nanyang Technological University."
 sitemap: false
 permalink: /
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Publications"
+title: "Robotics Security Research Team CSL@NTU - Publications"
 layout: gridlay
-excerpt: "Allan Lab -- Publications."
+excerpt: "Robotics Security Research Team CSL@NTU -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -11,6 +11,7 @@ permalink: /publications/
 
 ## Group highlights
 
+### The following is now for demo only
 (For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.ch/citations?user=TqxYWZsAAAAJ), [ResearcherID](https://www.researcherid.com/rid/D-7763-2012))
 
 {% assign number_printed = 0 %}
